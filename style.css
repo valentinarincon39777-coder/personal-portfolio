@@ -250,12 +250,18 @@ h1 {
     font-size: 0.75rem;
 
   }
+
+.header { 
+  display: flex;
+  flex-direction: column;
 }
 
 .cards-grid {
   display: grid;
   grid-template-columns: 1fr;
   gap: var(--space-sm);
+}
+
 }
 
 @media (min-width: 640px) {
